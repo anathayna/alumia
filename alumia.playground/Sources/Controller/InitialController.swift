@@ -20,7 +20,7 @@ public class InitialController: UIViewController {
         view.addSubview(titleBtn)
         
         let playImage = UIImage(named: "play.png")
-        let playBtn = UIButton(frame: CGRect(x: 115, y: 430, width: 165, height: 96))
+        let playBtn = UIButton(frame: CGRect(x: 105, y: 430, width: 165, height: 96))
         playBtn.setImage(playImage, for: .normal)
         view.addSubview(playBtn)
         
