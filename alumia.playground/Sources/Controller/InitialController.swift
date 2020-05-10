@@ -14,10 +14,15 @@ public class InitialController: UIViewController {
 //        title.font = UIFont.boldSystemFont(ofSize: 48)
 //        view.addSubview(title)
         
-        let titleImage = UIImage(named: "teste.png")
-        let titleBtn = UIButton(frame: CGRect(x: 0, y: 100, width: 380, height: 50))
+        let titleImage = UIImage(named: "title.png")
+        let titleBtn = UIButton(frame: CGRect(x: 60, y: 60, width: 250, height: 350))
         titleBtn.setImage(titleImage, for: .normal)
         view.addSubview(titleBtn)
+        
+        let playImage = UIImage(named: "play.png")
+        let playBtn = UIButton(frame: CGRect(x: 115, y: 430, width: 165, height: 96))
+        playBtn.setImage(playImage, for: .normal)
+        view.addSubview(playBtn)
         
 //        let startBtn = UIButton(frame: CGRect(x: 135, y: 300, width: 120, height: 50))
 //        startBtn.setTitle("let's play!", for: .normal)
