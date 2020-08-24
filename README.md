@@ -1,4 +1,4 @@
 ![alumia banner](doc/alumia-banner.png)
 
-# alumia!
+# alumia
 alchemist experience :atom:
